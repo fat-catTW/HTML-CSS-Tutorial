@@ -1,0 +1,198 @@
+.thumbnail
+{
+    width: 100%;
+}
+
+.thumbnail-row
+{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.vedio-title
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    font-family: Roboto, Arial;
+    color: black;
+}
+
+
+.vedio-author,
+.vedio-stats
+{
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+
+
+@media (min-width: 1000px)
+{
+    .vedio-author,
+    .vedio-stats
+    {
+        font-size: 14px;
+    }
+    .vedio-title
+    {
+        font-size: 16px;
+    }
+
+    
+}
+
+
+
+
+a
+{
+    text-decoration: none;
+    font-family: Roboto, Arial;
+    color: black;
+}
+
+.vedio-preview
+{
+
+        
+}
+
+.channel-picture
+{
+    position: relative;
+}
+
+.vedio-info
+{
+    
+}
+
+.vedio-info-grid
+{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+
+
+.profile-picture
+{
+    width: 36px;
+    border-radius: 20px;
+    
+}
+
+
+.channel-tooltip
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    text-wrap: nowrap;
+    top: 65px;
+
+    opacity: 0;
+    
+    z-index: 200;
+}
+
+
+.channel-tooltip img
+{
+    width:45px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+.channel-tooltip-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding-left: 10px;
+    line-height: 25px;
+    font-family: Roboto, Arial;
+}
+
+
+.channel-tooltip-box-title
+{
+    font-weight: bold;
+}
+
+.channel-picture:hover .channel-tooltip
+{
+    opacity: 1;
+}
+
+
+
+.vedio-author
+{
+    margin-bottom: 4px;
+}
+
+.vedio-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    
+}
+
+@media (max-width: 900px)
+{
+    .vedio-grid
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media(min-width: 901px ) and (max-width:1249px)
+{
+    .vedio-grid
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1250px)
+{
+    .vedio-grid
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 105px;
+    }
+}
+
+
+
+
+
+.vedio-time
+{
+    font-weight: 500;
+    padding: 5px 3px;
+    border-radius: 3px;
+    position: absolute;
+    background-color: rgb(24, 23, 23);
+    opacity: 0.9;
+    color: white;
+    right: 5px;
+    bottom: 10px;
+}

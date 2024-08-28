@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+
+            p
+            {
+                font-family: Arial;
+            }
+
+            .photo
+            {
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                object-fit: cover;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+
+            .text
+            {
+                height: 30px;
+                border: none;
+            }
+
+            .tweet-button
+            {
+                background-color: #1d9bf0;
+                border: none;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 18px;
+                font-weight: bold;
+                font-size: 15px;
+                cursor: pointer;
+                margin-right: 4px;
+                margin-left: 4px;
+        
+                vertical-align: middle;
+                transition: box-shadow 0.2s;
+            }
+            
+            .tweet-button:hover
+            {
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            }
+
+            .box
+            {
+                width: 330px;
+                height: 50px;
+                border-radius: 5px;
+                border-color: black;
+                border-style: solid;
+                border: none;
+                box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.3);
+            }
+
+            .box2
+            {
+                width: 250px;
+                height: 430px;
+                border-radius: 5px;
+                border-color: black;
+                border-style: solid;
+                border: none;
+                box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.3);
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 15px;
+            }
+
+
+            .toyota
+            {
+                width:  250px;
+                height: 250px;
+                object-fit:cover;
+            }
+
+            .buy
+            {
+                background-color: green;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                width: 80px;
+                height: 40px;
+                cursor: pointer;
+            }
+
+            .google
+            {
+                text-align: center;
+            }
+
+            .google-input
+            {
+                height: 30px;
+                width: 600px;
+                border-radius: 30px;
+                border: none;
+                box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);;
+                margin-bottom: 20px;
+            }
+
+            .google-buttom
+            {
+                border: none;
+                height: 40px;
+            }
+            
+            .profile-picture
+            {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                object-fit: cover;
+            }
+            
+            .profile-picture-row
+            {
+                display: inline-block;
+            }
+
+            .recruit
+            {
+                display: inline-block;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+
+            .recruit-row
+            {
+                display: inline-block;
+                vertical-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <img class="photo" src="thumbnails/toyota.jpg">
+            <input class="text" type="text" placeholder="What's happening?">
+            <button class ="tweet-button">Tweet</button>
+        </div>
+
+        <br>
+        <br>
+
+
+
+        <div class="box2">
+            <div>
+                <img class="toyota" src="thumbnails/toyota.jpg">
+            </div>
+            
+            <div>
+                <p><strong>HMG Toyota</strong></p>
+                <div>
+                    <div class="profile-picture-row">
+                        <img class = "profile-picture" src="channelPics/joseph-kony.webp">
+                    </div>
+                    
+                    <div class="recruit-row">
+                        <p class="recruit">recruiting...</p>
+                    </div>
+
+                    
+                </div>
+                
+                <button class="buy">Buy</button>
+            </div>
+            
+        </div>
+        <div class="box2">
+            <div>
+                <img class="toyota" src="thumbnails/RPG.jpg">
+            </div>
+            
+            <div>
+                <p><strong>RPG-7</strong></p>
+                
+                <div>
+                    <div class="profile-picture-row">
+                        <img class = "profile-picture" src="channelPics/joseph-kony.webp">
+                    </div>
+                    
+                    <div class="recruit-row">
+                        <p class="recruit">recruiting...</p>
+                    </div>
+
+                    
+                </div>
+
+                <button class="buy">Buy</button>
+            </div>
+            
+        </div>
+        <div class="box2">
+
+            <div>
+                <img class="toyota" src="thumbnails/Kid.jpg">
+            </div>
+
+            <div>
+                <p><strong>Child soldiers</strong></p>
+
+                <div>
+                    <div class="profile-picture-row">
+                        <img class = "profile-picture" src="channelPics/joseph-kony.webp">
+                    </div>
+                    
+                    <div class="recruit-row">
+                        <p class="recruit">recruiting...</p>
+                    </div>
+
+                    
+                </div>
+                <button class="buy">Buy</button>
+            </div>
+            
+        </div>
+
+
+
+        <br>
+        <br>
+        <br>
+
+        <div class ="google">
+            <img src="thumbnails/google.png">
+        </div>
+
+        <div class ="google">
+            <input class="google-input" type="text" placeholder="  Search Google or type a URL">
+
+        </div>
+
+        <div class ="google">
+            <button class="google-buttom">Google search</button>
+            <button class="google-buttom">I'm Feeling Lucky</button>
+        </div>
+
+        
+    </body>
+</html>

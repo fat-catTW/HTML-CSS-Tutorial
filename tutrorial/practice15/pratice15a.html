@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Practice15a</title>
+        <style>
+
+            body
+            {
+                margin-bottom: 3000px;
+            }
+
+            .close
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Roboto, Arial;
+                font-size: 20px;
+                position: absolute;
+                top: -20px;
+                left: -20px;
+                width: 60px;
+                height: 60px;
+                background-color: black;
+                border-radius: 30px;
+                color: white;
+            }
+
+            .background
+            {
+                height: 300px;
+                width: 300px;
+                background-color: rgb(202, 202, 202);
+                position: relative;
+                
+
+            }
+
+            .price
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                width: 80px;
+                background-color: black;
+                opacity: 0.9;
+                position: absolute;
+                right: 0px;
+                top: 10px;
+                text-align: center;
+                color: white;
+                font-family: Roboto, Arial;
+            }
+
+            .buy-section
+            {
+                display: flex;
+                height: 100px;
+                width: 300px;
+                background-color:rgba(255, 255, 255, 0.5);
+                position: absolute;
+                bottom: 0px;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            
+            .buy-button
+            {
+                background-color: rgb(255, 255, 255);
+                opacity: 1;
+                cursor: pointer;
+                width: 100px;
+                height: 30px;
+            }
+
+            .pic
+            {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <p>Whatever</p>
+        
+
+        <div class="background">
+    
+            <img class="pic" src="../thumbnails/toyota.jpg">
+            <div class="price">
+                20% OFF
+            </div>
+
+            <div class="buy-section">
+                    <button class="buy-button">Add to Cart</button>
+                
+            </div>
+        </div>
+    </body>
+</html>

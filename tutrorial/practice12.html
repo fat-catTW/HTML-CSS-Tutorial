@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+
+        <style>
+
+            p
+            {
+                margin-top: 0px;
+                margin-bottom: 5px;
+                font-size: 25px;
+            }
+            
+            .main-container
+            {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+
+            }
+
+            .user-row
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .user-pic
+            {
+                height: 80px;
+                width: 80px;
+                object-fit: cover;
+                border-radius: 40px;
+                
+            }
+
+            .description
+            {
+                margin-left: 15px;
+                padding-right: 50px;
+                width: 200px;
+            }
+
+            .follow-buttom
+            {
+                background-color: rgb(55, 118, 255);
+                color: white;
+                border: none;
+                height: 40px;
+                width: 80px;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .name
+            {
+                font-weight: bold;
+                font-size: 30px;
+            }
+
+            .intro
+            {
+                color: gray;
+                font-size: 30px;
+            }
+
+            .category
+            {
+                color: gray;
+                font-size: 20px;
+            }
+
+            .purple-search
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(120, 82, 178);
+                margin-left: 20px;
+                margin-right: 20px;
+                
+            }
+
+            .home
+            {
+                font-weight: bold;
+                color: white;
+                padding-left: 20px;
+            }
+
+            .search-bar
+            {
+                border: none;
+                width: 500px;
+                height: 30px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+                border-radius: 15px;
+                padding-left: 20px;
+            
+            }
+
+            .download
+            {
+                height: 36px;
+                width: 110px;
+                border-color: white;
+                border-radius: 3px;
+                border-style: solid;
+                color: white;
+
+                margin-right: 20px;
+                background-color: rgb(120, 82, 178);
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="main-container">
+            <div class="user-row">
+            
+                <img class="user-pic" src="thumbnails/toyota.jpg">
+                <div class="description">
+                    <p class="name">oliver</p>
+                    <p class="intro">the cat</p>
+                    <p class="category">Popular</p>
+                </div>
+                <div>
+                    <button class="follow-buttom">Follow</button>
+                </div>
+            </div>
+            <div class="user-row">
+                
+                <img class="user-pic" src="thumbnails/Kid.jpg">
+                <div class="description">
+                    <p class="name">Child</p>
+                    <p class="intro">AK 47</p>
+                    <p class="category">Pew Pew</p>
+                </div>
+                <div>
+                    <button class="follow-buttom">Follow</button>
+                </div>
+            </div>
+            <div class="user-row">
+                
+                <img class="user-pic" src="thumbnails/RPG.jpg">
+                <div class="description">
+                    <p class="name">RPG-7</p>
+                    <p class="intro">eat lead</p>
+                    <p class="category">Death</p>
+                </div>
+                <div>
+                    <button class="follow-buttom">Follow</button>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <div class="purple-search">
+            <div class="home">
+                Home
+            </div>
+            <input class="search-bar" type="text" placeholder="Search">
+            <div>
+                <button class="download">Download</button>
+            </div>
+        </div>
+        
+    </body>
+</html>

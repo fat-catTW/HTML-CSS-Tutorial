@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice14b</title>
+        <style>
+            .right-sidebar
+            {
+                background-color: green;
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 200px;
+            }
+
+            .cover
+            {
+                color: white;
+                background-color:rgba(0, 0, 0, 0.8);
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+            .Modal
+            {
+                height: 180px;
+                width: 450px;
+                background-color: white;
+                border-radius: 10px;
+                line-height: 15px;
+                color: black;
+                padding-left: 20px;
+                
+            }
+
+            .title
+            {
+                font-weight: bold;
+                font-size: 35px;
+
+            }
+
+            .description
+            {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="right-sidebar">
+            right sidebar
+        </div>
+
+        <div class="cover">
+            <div class="Modal">
+                <p class="title">Modal Title</p>
+                <p class="description">This is a modal</p>
+                <button class="close-buttom">Close</button>
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>
